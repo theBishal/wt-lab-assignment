@@ -1,4 +1,4 @@
-<h1 align="center">Assignment of Web Technology</h1>
+# Assignment of Web Technology
 29th March--30th March<br>
 [Assignment3](https://github.com/Bishal711/wt-lab-assignment/edit/master/Assignment/Assignment3)
 <br>19th April--21th April<br>

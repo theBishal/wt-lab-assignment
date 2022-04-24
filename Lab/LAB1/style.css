@@ -1,0 +1,67 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+body
+{
+    width: 100%;
+    margin: 0 auto;
+    background-color: skyblue;
+}
+button
+{
+  background-color:skyblue;
+  color: black;
+  display: flexbox;
+  text-align: center;
+  font-style: italic;
+  font-size: x-large;
+  
+}
+h1
+{
+    text-align: center;
+    font-style: oblique;
+}
+p{
+    text-align: start;
+    font-size: large;
+}
+nav {
+    height: 50px;
+    flex: 100%;
+    display: flex;
+  }
+  nav ul {
+    padding: 0;
+    list-style-type: disc;
+    flex: 2;
+    display: flex;
+    font-size: large;
+  }
+  
+  nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+  }
+  main {
+    display:flex;
+  }
+  
+  section {
+    flex: 3;
+  }
+  
+  aside {
+    flex: 1;
+    margin-left: 10px;
+    padding: 1%;
+  }
+
+  aside img
+  {
+    border-radius: 70%;
+  }

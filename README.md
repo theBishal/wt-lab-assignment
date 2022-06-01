@@ -17,3 +17,4 @@
 | Lab 1      |Html Webpage     |  [View](https://github.com/Bishal711/wt-lab-assignment/tree/master/Lab/LAB1)|
 | Lab 2      |Html Buttons and Borders    |  [View](https://github.com/Bishal711/wt-lab-assignment/tree/master/Lab/LAB2)|
 | Lab 3      |Customizing Colors          |  [View](https://github.com/Bishal711/wt-lab-assignment/tree/master/Lab/LAB3)|
+| Lab 4      |Task                        |  [View](https://github.com/Bishal711/wt-lab-assignment/tree/master/Lab/LAB4)|

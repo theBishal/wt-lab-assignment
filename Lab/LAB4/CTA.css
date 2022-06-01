@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+    width: fit-content;
+}
+.container
+{
+    position: relative;
+    top: 300px;
+    left: 700px;
+}
+a{
+    position: relative;
+    top: 10px;
+    left: 120px;
+}
+.btn
+{
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius:  7px;
+}
+.btn:hover
+{
+    background-color: black;
+    color: white;
+}
+.btn:active
+{
+    background-color: purple;
+    color: black;
+}
+.buy
+{
+    background-color: #2663eb;
+    color: white;
+    position: relative;
+    top: -30px;
+    left: 80px
+}
+.start
+{
+    background-color: #ffffff;
+    color: #636b78;
+    position: relative;
+    top: -30px;
+    left: 100px;
+}
+#f{
+    color: black ;
+    font-size: 42px;
+}
+#s
+{
+    color: black;
+    font-size: 42px;
+    position: relative;
+    top: -35px;
+    left: 120px;
+}

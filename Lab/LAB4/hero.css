@@ -1,0 +1,117 @@
+* {
+  margin: 0px;
+}
+body
+{
+  font-family: sans-serif;
+}
+.container {
+  display: inline;
+  position: relative;
+  top: 0px;
+}
+
+h3 {
+  display: inline;
+  position: relative;
+  margin-left: 20px;
+  font-size: 30px;
+  top: 25px;
+}
+
+.content ul li {
+  list-style: none;
+  display: inline;
+  position: relative;
+  padding: 0px 25px;
+  left: -10px;
+}
+
+ul {
+  text-align: center;;
+}
+
+.btn {
+  border: solid 1px rgb(214, 211, 211);
+  padding: 7px 25px;
+  position: absolute;
+  right: 20px;
+  top: 25px;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  font-weight: 550;
+}
+
+section img {
+  width: 45%;
+  height: auto;
+  display: inline;
+  position: relative;
+  float: right;
+  top: -320px;
+  right: 20px;
+  border-radius: 10px;
+  z-index: 3;
+}
+
+h1 {
+  display: block;
+  position: relative;
+  top: 90px;
+  font-size: 65px;
+  z-index: 2;
+  left: 100px;
+}
+
+.tick span {
+  position: relative;
+  display: block;
+  color: #1770c8;
+  border-color: #1770c8;
+  top: 120px;
+  left: 100px;
+  padding: 9px;
+  z-index: 1;
+}
+
+.list p {
+  display: block;
+  position: relative;
+  top: -5px;
+  left: 150px;
+  font: 1em;
+  padding: 12px;
+  z-index: 1;
+}
+
+.input {
+  width: 19%;
+  border: solid 1px gray;
+  display: block;
+  position: relative;
+  bottom: -10px;
+  left: 110px;
+  padding: 5px 26px;
+  border-radius: 5px;
+}
+
+.input input {
+  outline: none;
+  color: rgb(146, 140, 140);
+  font-weight: 100;
+  border: none;
+  padding: 7px;
+}
+
+.input .btn {
+  display: inline;
+  background-color: #1770c8;
+  border-color: #1770c8;
+  color: white;
+  border-radius: 5px;
+  right: 3px;
+  padding: 8px 10px;
+  top: 2px;
+  font-family: Arial;
+}

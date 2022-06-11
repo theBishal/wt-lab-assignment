@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascending and Descending Order</title>
+</head>
+<body>
+    <script>
+        let array=[2,1,4,5,6,7,9,8,3];
+        let temp;
+        let asc=" ";
+        let desc="  ";
+        for(let i=0;i<array.length-1;i++){
+            for(let j=i+1;j<array.length;j++) {
+                if(array[i]>array[j]){
+                    temp=array[i];
+                    array[i]=array[j];
+                    array[j]=temp;
+                }
+            }
+            
+        } 
+        //Ascending
+        console.log("Ascending Order : ")
+        for(let i=0;i<array.length;i++){
+            asc+=array[i];
+        }
+        console.log(asc);
+        //Descending
+        console.log("Descending Order : ");
+        for (i = array.length-1; i >= 0; i--){
+            desc+=array[i];
+        }
+        console.log(desc);
+    </script>
+</body>
+</html>
